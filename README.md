@@ -28,3 +28,29 @@ Jalankan server
 ```bash
 python manage.py runserver
 ```
+## Run Unit Test
+
+Test Function GET all data post
+```bash
+python manage.py test api.test.test_views.GetAllPostsTest
+```
+
+Test Function GET single data post
+```bash
+python manage.py test api.test.test_views.GetSinglePostsTest
+```
+
+Test Function Create data post
+```bash
+python manage.py test api.test.test_views.CreateNewPostsTest
+```
+
+Test Function Update data post
+```bash
+python manage.py test api.test.test_views.UpdateSinglePostsTest
+```
+
+Test Function Delete single data post
+```bash
+python manage.py test api.test.test_views.DeleteSinglePostsTest
+```
