@@ -16,11 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 
-# from rest_framework import routers
-# from api import api_views as api_views
-
-# router = routers.DefaultRouter()
-# router.register(r'posts',api_views.PostsViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
